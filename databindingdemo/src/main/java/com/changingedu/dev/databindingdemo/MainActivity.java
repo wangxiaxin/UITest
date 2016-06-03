@@ -32,10 +32,9 @@ public class MainActivity extends AppCompatActivity {
         binding.setHandler(this);
         
         MainActivityFragment fragment = new MainActivityFragment();
-        
         int status = getSupportFragmentManager().beginTransaction()
-                .add(binding.fragContainer.getId(), fragment).commit();
-        
+                .add(binding.fragContainer.getId(), fragment).commitAllowingStateLoss();
+
         Log.d(TAG, "  status = " + status);
     }
     
