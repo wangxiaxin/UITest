@@ -1,0 +1,45 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- margin -->
+    <dimen name="dimen_0_5">-5dp</dimen>
+    <dimen name="dimen_0_8">-8dp</dimen>
+    <dimen name="dimen_0_12">-12dp</dimen>
+    <dimen name="dimen_1">1dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_16">16dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_24">24dp</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_200">200dp</dimen>
+
+    <dimen name="radius_dp">3dp</dimen>
+    <dimen name="stroke_width">1dp</dimen>
+
+    <!--android默认的正常normal字体大小为16sp, 中号Medium字体18sp，小号Small字体14sp, 大号Large字体22sp-->
+    <!--字体规范-->
+    <!--使用场景20dp：特殊字体，大号字体-->
+    <dimen name="font_size_20">20sp</dimen>
+    <dimen name="font_size_18">18sp</dimen>
+    <!--使用场景16dp：整行按钮，顶部标题，第一次标题（如用户昵称，列表选项，时间等）-->
+    <dimen name="font_size_16">16sp</dimen>
+    <!--使用场景13dp：文字-->
+    <dimen name="font_size_13">13sp</dimen>
+    <!--使用场景14dp：文字按钮-->
+    <dimen name="font_size_14">14sp</dimen>
+    <!--使用场景12dp：底部tab title，次一级的标题-->
+    <dimen name="font_size_12">12sp</dimen>
+    <!--使用场景8dp：日历文字-->
+    <dimen name="font_size_8">8sp</dimen>
+
+</resources>

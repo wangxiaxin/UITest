@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="TimeLineItem">
+        <attr name="spiritWidth" format="dimension" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="momentLineColor" format="color" />
+        <attr name="momentSolidColor" format="color" />
+        <attr name="momentForegroundRes" format="reference" />
+        <attr name="lineMomentGap" format="dimension" />
+        <attr name="showTopLine" format="boolean" />
+        <attr name="showBottomLine" format="boolean" />
+        <attr name="momentRadius" format="dimension" />
+        <attr name="titleHeight" format="dimension"/>
+        <attr name="timeState">
+            <flag name="timeBegin" value="0x0" />
+            <flag name="timeIng" value="0x1" />
+            <flag name="timeEnd" value="0x2" />
+        </attr>
+    </declare-styleable>
+</resources>

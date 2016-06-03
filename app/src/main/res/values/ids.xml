@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="timeline_spirit" type="id" />
+    <item name="timeline_title" type="id" />
+    <item name="timeline_subtitle" type="id" />
+</resources>
