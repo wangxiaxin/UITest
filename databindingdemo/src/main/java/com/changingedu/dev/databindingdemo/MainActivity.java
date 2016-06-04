@@ -32,8 +32,11 @@ public class MainActivity extends AppCompatActivity {
         binding.setHandler(this);
         
         MainActivityFragment fragment = new MainActivityFragment();
+        UserModelFragment fragment2 = new UserModelFragment();
+
+
         int status = getSupportFragmentManager().beginTransaction()
-                .add(binding.fragContainer.getId(), fragment).commitAllowingStateLoss();
+                .add(binding.fragContainer.getId(), fragment2).commitAllowingStateLoss();
 
         Log.d(TAG, "  status = " + status);
     }
