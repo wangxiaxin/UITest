@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.changingedu.dev.databindingdemo.databinding.FragmentMainBinding;
-import com.changingedu.dev.databindingdemo.databinding.FragmentUserModelBinding;
 
 /**
  * A placeholder fragment containing a simple view.

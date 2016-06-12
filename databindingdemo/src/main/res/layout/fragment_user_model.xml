@@ -6,6 +6,10 @@
         <variable
             name="user"
             type="com.changingedu.dev.databindingdemo.model.User" />
+
+        <variable
+            name="user2"
+            type="com.changingedu.dev.databindingdemo.model.User2" />
     </data>
 
     <LinearLayout
@@ -32,5 +36,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{user.gender == 1? @string/male:@string/female}" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{ "" + user2.age}' />
+
     </LinearLayout>
 </layout>
