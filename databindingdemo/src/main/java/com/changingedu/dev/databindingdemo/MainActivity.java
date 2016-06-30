@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     
     public void handlerClick(View v) {
         if (v == binding.fab) {
-            Snackbar.make(v, "Replace with your own action", Snackbar.LENGTH_LONG)
+            Snackbar.make(v, "your own action", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
         }
     }

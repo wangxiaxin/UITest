@@ -22,10 +22,10 @@
             android:layout_height="wrap_content"
             android:text="@{user.firstName}" />
 
-        <TextView
+        <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{user.lastName}" />
+            android:text="@={user.lastName}" />
 
         <TextView
             android:layout_width="wrap_content"

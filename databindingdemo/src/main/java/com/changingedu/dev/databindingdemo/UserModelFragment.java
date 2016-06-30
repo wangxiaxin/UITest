@@ -31,8 +31,8 @@ public class UserModelFragment extends Fragment {
         
         user = new User();
         user.age = 23;
-        user.firstName = "first name";
-        user.lastName = "last name";
+        user.firstName = "default first name";
+        user.lastName = "default last name";
         user.gender = 1;
         binding.setUser(user);
 

@@ -15,9 +15,9 @@ public class User2 {
     public String firstName;
     public String lastName;
     public int gender;
-    public ObservableInt age = new ObservableInt();;
-
-    public void setAge(int age){
+    public ObservableInt age = new ObservableInt();
+    
+    public void setAge(int age) {
         this.age.set(age);
     }
 }
